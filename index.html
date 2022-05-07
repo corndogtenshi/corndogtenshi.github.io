@@ -1,75 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <title>Nathan's Resume: Home Page</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="index.css">
-    </head>
+</head>
 
-    <body>
-        <div>
-            <span class="title"> Nathan Eagle • <a href="mailto:sei9ijobapp@gmail.com">sei9ijobapp@gmail.com</a></span>
-        </div>
-        <hr/>
+<body>
+    <div>
+        <span class="title"> Nathan E. • <a href="mailto:sei9ijobapp@gmail.com">sei9ijobapp@gmail.com</a></span>
+    </div>
+    <hr />
 
-        <div class="main">
+    <div class="main">
         <h1 class="project-header">Projects</h1>
-            <div class="project">
-                <span>Cooking Website</span><br/>
-                <h6>A project where users could create and upload or view other's recipes.</h6>
+        <div class="flex-container">
+            <div class="project flex-item">
+                <span>Nathan's Cookout</span>
                 <img class="projectimage-thumbnail" src="Images/cooking-edit.jpg"></img>
-                <div class="project-text">
-                    <ul>
-                        <li>Designed and implemented a relational database which held users and recipes.</li><br/>
-                        <li>Implemented ability to upload, edit, view, and delete recipes to and from the MySQL database.</li><br/>
-                        <li>Created user access control and administrative functions such as deactivating accounts and recipes.</li><br/>
-                        <li>Created UI and styling for the website.</li><br/>
-                    </ul>
-                </div>
-                <p class="project-text">Technologies: PHP, SQL, MySQL, JavaScript, HTML, CSS</p><br/>
-                <button type="button" onclick="location.href='cookingsite.html'" class="project-button">View Screenshots</button><br/>
+                <h6>A project where users could create, upload, and browse recipes.</h6>
+                <p class="project-text">Technologies: PHP, SQL, JavaScript, HTML, CSS</p><br />
+                <button type="button" onclick="location.href='cookingsite.html'" class="project-button">View
+                    Screenshots</button>
+                <button type="button" onclick="location.href='http://66.42.125.194/'" class="project-button">Live
+                    Demo</button>
+
             </div>
 
-            <br/>
-            <br/>
+            <br />
+            <br />
 
-            <div class="project">
-                <span>Adventure Bunny </span><br/>
-                <h6>A tile-based 2D adventure game about a bunny digging underground and collecting keys for treasure while avoiding enemies.</h6>
+            <div class="project flex-item">
+                <span>Adventure Bunny </span><br />
                 <img class="projectimage-thumbnail" src="Images/abunny-level1.png"></img>
-                <div class="project-text">
-                    <ul>
-                        <li>Collaboratively designed the core game system and gameplay elements such as the game and level objectives and entities within the game (such as collectible keys, falling rocks, etc.).</li><br/>
-                        <li>Coded the character controller script, monster AI scripts, destructible terrain handling scripts, collision handling scripts, a script for managing the score and gameplay state.</li><br/>
-                        <li>Assembled levels and prefabs within the Unity game engine.</li><br/>
-                    </ul>
-                </div>
-                <p class="project-text">Technologies: Unity, C#</p><br/>
-                <button type="button" onclick="location.href='https://github.com/muratenshi/AdventureBunny'" class="project-button">Github</button>
-                <button type="button" onclick="location.href='adventurebunny.html'" class="project-button">View Screenshots</button>
-                <button type="button" onclick="location.href='files/Adventure%20Bunny.zip'" class="project-button">Playable Download</button>
-                <br/>
+                <h6>A tile-based 2D adventure game about a bunny digging underground and collecting keys for treasure
+                    while
+                    avoiding enemies.</h6>
+                <p class="project-text">Technologies: Unity, C#</p><br />
+                <button type="button" onclick="location.href='https://github.com/muratenshi/AdventureBunny'"
+                    class="project-button">Github</button>
+                <button type="button" onclick="location.href='adventurebunny.html'" class="project-button">View
+                    Screenshots</button>
+                <button type="button" onclick="location.href='files/Adventure%20Bunny.zip'"
+                    class="project-button">Playable
+                    Download</button>
+                <br />
             </div>
-            
-            <br/>
-            <br/>
-
-            <div class="project">
-                <span>Amazon Search Engine <a href=""></a></span><br/>
-                <h6>A search engine created using Python and PySpark to search Stanford's SNAP Amazon Dataset.</h6>
-                <div class="project-text">
-                    <ul>
-                        <li>Created functionality to apply multiple filter queries at once for sales rank and average review score to search product dataset.</li><br/>
-                        <li>Created functionality to sort data records by sales rank and review score (ascending or descending order).</li><br/>
-                        <li>Created functionality to search records by product name.</li><br/>
-                        
-                    </ul>
-                </div>
-                <p class="project-text">Technologies: Python, Spark (pySpark)</p><br/>
-                <button type="button" onclick="location.href='searchengine.html'" class="project-button">View Screenshots</button>
-                <br/>
-            </div>
-
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
